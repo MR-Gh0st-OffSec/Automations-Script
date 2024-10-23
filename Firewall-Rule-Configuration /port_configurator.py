@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import subprocess
 import sys
@@ -7,7 +8,7 @@ from datetime import datetime
 # Author: MR.Gh0st
 # Position: Hacker
 # Date: 2024-10-22
-# Time: 14:45
+# Time: 14:55
 
 LOG_FILE = '/var/log/port_configurator.log'
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
